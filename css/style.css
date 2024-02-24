@@ -1,0 +1,897 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*----header and banner starts--*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all ease 0.4s;
+}
+
+.main-div {
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+.hero-header {
+    background: url("../img/blob-bottom-left.png"), url("../img/blob-bottom-right.png"), url("../img/blob-top-left.png"), url("../img/blob-top-right.png"), url("../img/blob-center.png"), url("../img/bg-bottom.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position: left 0px bottom 0px, right 0px bottom 0px, left 0px top 0px, right 0px top 0px, center center, center bottom;
+}
+
+.bg-color {
+    background-color: #6222CC;
+    position: relative;
+}
+
+.row{
+    margin-inline: 0;
+}
+
+.my-nav {
+    padding-inline: 30px;
+}
+
+.navbar-brand {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Jost", sans-serif;
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-image: url("../img/menu.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.my-ul a {
+    font-size: 19px;
+    color: #fff;
+    font-weight: 500;
+    margin-right: 17px;
+}
+
+.my-nav ul li ul li a{
+    color: #000;
+    font-size: 15px;
+}
+
+.my-ul a:hover {
+    color: orange;
+}
+
+.my-ul .add {
+    color: orange;
+}
+
+.btn-1 {
+    padding: 7px 25px;
+    border-radius: 30px;
+    border: none;
+}
+
+.banner {
+    padding: 170px 40px 250px 40px;
+}
+
+.banner h1 {
+    font-family: "Jost", sans-serif;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 120px;
+}
+
+.banner p {
+    color: #fff;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    margin-top: 25px;
+}
+
+.btn1 {
+    padding: 16px 47px;
+    border: none;
+    border-radius: 30px;
+    margin-right: 13px;
+    margin-top: 20px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+}
+
+.btn2 {
+    background-color: rgb(255, 174, 0);
+}
+
+.banner-img img {
+    width: 100%;
+}
+
+.sticky {
+    width: 100vw;
+    background: #ffffff;
+    left: 0;
+    position: fixed !important;
+    z-index: 1;
+    padding: 0 30px;
+    top: 0;
+}
+
+.sticky a {
+    color: #000;
+}
+
+.sticky .navbar-brand {
+    color: #6222cc;
+}
+
+.sticky .main-but {
+    background-color: orange;
+}
+ 
+.navbar-toggler{
+border: 1px solid rgb(0, 0, 0);
+}
+
+/*----header and banner ends--*/
+/*----MArkiting starts--*/
+
+.markiting {
+    margin: 200px 0;
+}
+
+.box {
+    background-color: #cfcfcf4e;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px 25px;
+}
+
+.box:hover {
+    transform: translateY(-10px);
+    transition: all ease 0.4s;
+}
+
+.box .fa {
+    color: #6222CC;
+    font-size: 45px;
+}
+
+.box h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+    font-family: "Jost", sans-serif;
+}
+
+.box p,
+.servic .box-1 p {
+    margin-top: 20px;
+    font-size: 17px;
+    color: rgb(81, 81, 81);
+}
+
+/*----MArkiting ends--*/
+/*----about starts--*/
+
+.about-us {
+    padding-inline: 0;
+}
+
+.about img {
+    width: 100%;
+    padding: 10px 30px;
+}
+
+.about-1 {
+    padding: 10px 30px;
+}
+
+.about h3 {
+    font-size: 17px;
+    color: orange;
+    position: relative;
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+}
+
+
+
+.about h1 {
+    font-size: 42px;
+    font-family: "Jost", sans-serif;
+    font-weight: 700;
+    margin-top: 20px;
+    padding-right: 50px;
+    color: #000;
+}
+
+.about p {
+    font-size: 17px;
+    margin-top: 40px;
+}
+
+.about .btn3 {
+    background-color: #6222CC;
+    color: #fff;
+}
+
+.progress-text {
+    position: relative;
+    margin-top: 30px;
+}
+
+.progress-text h6 {
+    display: inline-block;
+}
+
+.progress-text p {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    bottom: -10px;
+}
+
+.progress {
+    height: 5px;
+}
+
+.progress-bar {
+    background-color: #6222CC;
+}
+
+.progress-bar {
+    width: 0%;
+    animation: progressAnimation 2s linear forwards;
+}
+
+@keyframes progressAnimation {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+.progress-bar-2 {
+    width: 0%;
+    animation: pro 2s linear forwards;
+}
+
+@keyframes pro {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 87%;
+    }
+}
+
+.progress-bar-3 {
+    width: 0%;
+    animation: progrees 2s linear forwards;
+}
+
+@keyframes progrees {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 95%;
+    }
+}
+
+/*----about ends--*/
+/*----counter starts--*/
+
+.count {
+    margin: 130px 0;
+}
+
+.count .hero-header {
+    padding: 100px 80px;
+    color: #fff;
+    text-align: center;
+    background: url("../img/blob-bottom-left.png"), url("../img/blob-bottom-right.png"),
+        url("../img/blob-top-left.png"), url("../img/blob-top-right.png"), url("../img/blob-center.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position: left 0px bottom 0px, right 0px bottom 0px, left 0px top 0px, right 0px top 0px, center center;
+}
+
+.count .bg-color {
+    background-color: #6222CC;
+    position: relative;
+}
+
+.social .fa {
+    font-size: 55px;
+    color: orange;
+}
+
+.social h1 {
+    margin-top: 15px;
+    font-weight: 800;
+    font-family: "Jost", sans-serif;
+}
+
+.social p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/*----counter end--*/
+/*----servicese starts--*/
+
+.servic {
+    margin: 150px auto;
+    text-align: center;
+}
+
+.servic h3 {
+    font-size: 18px;
+    color: orange;
+    font-weight: 700;
+    position: relative;
+}
+
+.servic h1 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Jost", sans-serif;
+    color: #000;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.servic .box-1 {
+    background-color: #9c9c9c28;
+    padding: 50px 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.servic .box-1:hover {
+    background-color: #6222CC;
+    color: #fff;
+    transition: all ease .4s;
+    transform: translateY(-10px);
+}
+
+.servic .box-1:hover p {
+    color: #fff;
+}
+
+.box-1 .purpel-img {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    background-image: url("../img/blob-primary.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.box-1:hover .purpel-img {
+    background-image: url("../img/blob-secondary.png");
+}
+
+.box-1 .purpel-img .fa {
+    font-size: 37px;
+    color: #fff;
+    margin-top: 22px;
+}
+
+.box-1:hover .purpel-img .fa {
+    color: #000;
+}
+
+.servic .box-1 h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-block: 20px;
+}
+
+.arow {
+    background-color: #ffffff;
+    color: #6222CC;
+    position: absolute;
+    padding: 11px 15px;
+    left: 45%;
+    bottom: -49px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.arow:hover {
+    background-color: orange;
+    color: #000;
+    transition: all ease 0.4s;
+}
+
+.servic .box-1:hover .arow {
+    bottom: 0px;
+}
+
+/*----servicese end--*/
+/*---newsletter- starts--*/
+
+.news {
+    padding: 10px 200px;
+}
+
+.news h1 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.news p {
+    margin-top: -50px;
+    font-size: 17px;
+}
+
+.int {
+    border-radius: 30px;
+    padding: 10px 15px;
+    margin-top: 15px;
+}
+
+/*----newsletter end--*/
+/*----Projects starts--*/
+
+.link-page {
+    text-align: center;
+    margin-top: -110px;
+}
+
+.link-page a {
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 15px;
+    color: #000;
+    font-weight: 600;
+    position: relative;
+    border-bottom: 2px solid transparent;
+}
+
+.link-page a:hover {
+    color:#6222cc;
+    border-bottom: 2px solid #6222cc;
+}
+
+.link-page .gava {
+    color:#6222cc;
+    border-bottom: 2px solid #6222cc;
+}
+
+
+.proj-1 {
+    border-radius: 10px;
+    background-color: #d7d7d766;
+    margin-bottom: 40px;
+}
+
+.proj-img img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.proj-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.proj-1:hover img{
+    transform: scale(1.2);
+    transition: all ease .4s;
+
+}
+
+.proj-img .porj-icon {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6322cce0;
+    opacity: 0;
+}
+
+.proj-img:hover .porj-icon {
+    opacity: 1;
+}
+
+.proj-img .porj-icon .fa {
+    font-size: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    padding: 7px;
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+.proj-img .porj-icon .fa:hover {
+    background-color: #ffffff;
+    color: #000000;
+    cursor: pointer;
+}
+
+.proj-1 .proj-text {
+    padding: 20px 25px;
+}
+
+.proj-1 .proj-text h4 {
+    color: #6222CC;
+    font-size: 18px;
+}
+
+.proj-1 .proj-text p {
+    font-size: 20px;
+    color: #000;
+    font-weight: 500;
+}
+
+.shanu {
+    display: none;
+}
+
+/*----Projects end--*/
+/*----testmonial starts--*/
+
+.caro {
+    background-color: #8584842f;
+    padding: 30px;
+}
+
+.caro p {
+    font-size: 20px;
+}
+
+.caro img {
+    border-radius: 50%;
+}
+
+.caro h4 {
+    font-size: 20px;
+    color: #000;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot {
+    font-size: 40px;
+    font-weight: 400;
+    width: 60px;
+    height: 60px;
+    background-color: #8584842f;
+    border-radius: 50%;
+    border: none;
+    color: #6222CC;
+}
+
+.owl-carousel .owl-nav button.owl-next:hover,
+.owl-carousel .owl-nav button.owl-prev:hover,
+.owl-carousel button.owl-dot {
+    background-color: #6222cc;
+    transition: all ease 0.3s;
+}
+
+/*----testmonial end--*/
+/*----OUR TEAM starts--*/
+
+.team {
+    margin-top: -120px;
+}
+
+.testy {
+    margin-top: -80px;
+}
+
+.our-team-1 {
+    margin-top: -90px;
+    margin-bottom: 150px;
+}
+
+.our-team {
+    background-color: #b7b7b73c;
+    text-align: center;
+    padding: 25px 30px;
+}
+
+.our-team img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.our-team h4 {
+    font-size: 22px;
+    color: #000;
+    margin-top: 20px;
+}
+
+.our-team p {
+    font-size: 16px;
+    color: rgb(112, 112, 112);
+    font-family: "Roboto", sans-serif;
+}
+
+.team-social .fa {
+    font-size: 18px;
+    color: #6222cc;
+    margin-right: 10px;
+    background-color: #fff;
+    padding: 13px;
+    border-radius: 50%;
+}
+
+.team-social .fa:hover {
+    background-color: #6222CC;
+    color: #fff;
+    transition: all ease 0.4s;
+    cursor: pointer;
+}
+
+/*----OUR TEAM end--*/
+/*----footer starts--*/
+
+.footer-top {
+    margin-top: 100px;
+}
+
+.color-footer {
+    background: url("../img/map.png"), url("../img/bg-top.png");
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.footer {
+    padding: 50px 80px;
+    background-color: #6222cc;
+}
+
+.footer h1 {
+    font-size: 20px;
+    color: #fff;
+    margin-top: 50px;
+    font-family: "Jost", sans-serif;
+    margin-bottom: 20px;
+}
+
+.footer-one h6 {
+    font-size: 16px;
+    color: #fff;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.footer-one .fa {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.footer-one .footer-icon .fa {
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid #989595;
+    padding: 10px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.footer-one .footer-icon .fa:hover {
+    background-color: #fff;
+    color: #6222CC;
+    cursor: pointer;
+}
+
+.footer-two p {
+    color: #fff;
+    font-weight: 500;
+}
+
+.footer-two p:hover {
+    color: orange;
+    cursor: pointer;
+    letter-spacing: 1.4px;
+}
+
+.footer-img img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.footer-four h5 {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.footer-four .int {
+    color: #6222cc;
+}
+
+.last-footer p {
+    color: #ffffff;
+    text-align: center;
+}
+
+.last-footer .orenge:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+.last-footer .orenge {
+    border-bottom: 1px solid #ffffff;
+}
+
+.last-footer h6 {
+    color: #ffffff;
+}
+
+.last-footer h6:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+.last-footer hr {
+    width: 100%;
+    height: 1px;
+    background-color: #ffffff;
+    border: none;
+    margin-top: 50px;
+}
+
+/*---footer end--*/
+/*----Other page starts--*/
+
+.other-page{
+    width: 30%;
+    margin: 20px auto;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    top: 60px;
+}
+
+.other-page h1{
+    font-family: "Jost", sans-serif;
+    font-weight: 700;
+}
+
+.other-page hr{
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.other-page p{
+    margin-top: 15px;
+    letter-spacing: 1px;
+}
+
+.padd{
+    padding-bottom: 250px;
+}
+
+
+.up-down{
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    bottom: 20px;
+    right: 30px;
+    z-index: 1000;
+    position: fixed;
+    border-radius: 50%;
+}
+
+.up-down a{
+    color: #000;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 12px;
+}
+
+.found{
+    text-align: center;
+    padding: 150px 0;
+}
+
+.found .fa{
+    font-size: 80px;
+    color: #6222cc;
+} 
+
+.found h1{
+    font-size: 80px;
+    color: #000000;
+    font-weight: 900;
+    font-family: "Jost", sans-serif;
+}
+
+.found h2{
+    font-size: 40px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Jost", sans-serif;
+}
+
+.found p{
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+.found .last-btn{
+    background-color: #6222cc;
+    color: #fff;
+}
+
+.form-form{
+    width: 50%;
+    margin: 150px auto;
+    text-align: center;
+}
+
+.form-form h3{
+    font-size: 18px;
+    font-family: "Jost", sans-serif;
+    color: orange;
+}
+
+.form-form h1{
+    font-size: 45px;
+    font-weight: 700;
+    font-family: "Jost", sans-serif;
+    color: #000000;
+    margin-top: 20px;
+}
+
+.form-form p{
+    margin-top: 30px;
+}
+
+.form-form .int{
+   height: 60px;
+   border-radius: 10px;
+}
+
+.form-form .msg{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-form .button{
+    width: 100%;
+    height: 60px;
+    display: block;border: none;
+    border-radius: 10px;
+    background-color: #6222cc;
+    font-size: 18px;
+    color: #fff;
+}
+
+.blue{
+    color: blue;
+    cursor: pointer;
+}
+
+/*----Other page ends--*/

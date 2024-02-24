@@ -1,0 +1,104 @@
+@media only screen and (max-width:1199px) {
+
+    .banner h1 {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width:993px) {
+
+    .main-but {
+        display: none;
+    }
+
+    .our-team img {
+        width: 10%;
+        border-radius: 50%;
+    }
+
+    .box {
+        margin-bottom: 30px;
+    }
+
+    .banner {
+        text-align: center;
+        padding: 50px 100px 150px;
+    }
+
+    .banner-text {
+        margin-bottom: 50px;
+    }
+
+    .news {
+        padding: 10px 50px;
+    }
+
+    .form-form {
+        width: 100%;
+    }
+
+    .other-page p{
+        margin-top: 15px;
+        letter-spacing: 0px;
+    }
+
+    .other-page{
+        width: 100%;
+    }
+
+    .footer {
+        padding: 50px 0px;
+    }
+    
+}
+
+@media only screen and (max-width:660px) {
+    .banner {
+        padding: 80px 0px 150px 0px;
+    }
+
+    .banner h1 {
+        font-size: 30px;
+    }
+
+    .btn1 {
+        padding: 10px 30px;
+    }
+
+    .about h1 {
+        font-size: 32px;
+    }
+
+    .servic h1 {
+        font-size: 30px;
+    }
+
+    .count .hero-header {
+        padding: 100px 0px;
+    }
+
+    .news {
+        width: 100%;
+        padding: 10px 20px;
+    }
+
+}
+
+@media only screen and (max-width:432px) {
+    .banner {
+        padding: 0px 0px 150px 0px;
+    }
+
+    .banner h1 {
+        font-size: 25px;
+    }
+
+    .btn1 {
+        padding: 5px 20px;
+    }
+
+    .count .hero-header {
+        padding: 100px 0px;
+    }
+
+}
